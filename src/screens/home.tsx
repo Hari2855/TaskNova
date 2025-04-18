@@ -186,7 +186,6 @@ const Home: React.FC = () => {
           <Input
             icon={<Icon name="edit" size={26} strokeWidth={1.6} />}
             placeholder="Title"
-            secureTextEntry
             value={title}
             onChangeText={setTitle}
           />
